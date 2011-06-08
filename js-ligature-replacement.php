@@ -3,7 +3,7 @@
 /*
 Plugin Name: JS Ligature Replacement
 Description: Ligature replacement using Wyatt Allen's ligature.js script
-Version: 1.0
+Version: 1.0.1
 Author: Dave Ross
 Author URI: http://davidmichaelross.com/
 */
@@ -19,7 +19,7 @@ function js_ligatures_init() {
 }
 
 function js_ligatures_head() {
-  $options = get_option('ligatures_options');
+  $options = get_option('js_ligatures_options');
   $selectors = explode("\n", $options['selectors']);
   if($options['extended'] || 1) {
     $extended = 'true';

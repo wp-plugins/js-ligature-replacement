@@ -4,7 +4,7 @@ Donate link: http://catguardians.org/
 Tags: typography, ligatures
 Requires at least: 3.0
 Tested up to: 3.1.3
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 Ligature replacement using Wyatt Allen's ligature.js library and provides an interface for applying to a specific set of CSS selectors.
 
@@ -48,6 +48,10 @@ You're using a font which doesn't have ligature characters, or at least doesn't 
 == Screenshots ==
 
 == Changelog ==
+
+= 1.0.1 =
+* Bugfix: Was loading wrong options
+
 
 = 1.0 =
 * Initial release
