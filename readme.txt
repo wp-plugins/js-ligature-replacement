@@ -10,6 +10,8 @@ Ligature replacement using Wyatt Allen's ligature.js library and provides an int
 
 == Description ==
 
+**NOTE: This plugin has outlived its usefulness. You can use it if you need to support legacy browsers, but modern web sites should be using the `text-rendering: optimizeLegibility;` declaration in their CSS to encourage context-sensitive kerning and the use of ligatures.**
+
 Wyatt Allen's [Ligature.js](http://code.google.com/p/ligature-js/) library is a tool for automatically inserting ligatures in content where appropriate. Ligatures are glyphs that combine two letter forms into one for stylistic and legibility reasons.
 
 By default, this script replaces letter combinations which commonly have ligatures defined in web fonts:
